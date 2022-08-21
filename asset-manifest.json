@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/dalu_pizzaria/static/css/main.025eaa50.css",
-    "main.js": "/dalu_pizzaria/static/js/main.3459b953.js",
+    "main.js": "/dalu_pizzaria/static/js/main.1a198fe6.js",
     "static/js/787.87ae2758.chunk.js": "/dalu_pizzaria/static/js/787.87ae2758.chunk.js",
     "index.html": "/dalu_pizzaria/index.html",
     "main.025eaa50.css.map": "/dalu_pizzaria/static/css/main.025eaa50.css.map",
-    "main.3459b953.js.map": "/dalu_pizzaria/static/js/main.3459b953.js.map",
+    "main.1a198fe6.js.map": "/dalu_pizzaria/static/js/main.1a198fe6.js.map",
     "787.87ae2758.chunk.js.map": "/dalu_pizzaria/static/js/787.87ae2758.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.025eaa50.css",
-    "static/js/main.3459b953.js"
+    "static/js/main.1a198fe6.js"
   ]
 }
