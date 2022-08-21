@@ -8,7 +8,7 @@ export default function usePizzas(): Array<PizzaGroup> {
 
 	useEffect(() => {
 		fetch(
-			'https://raw.githubusercontent.com/AsonCS/dalu_pizzaria/main/assets/pizzas.json'
+			'https://raw.githubusercontent.com/AsonCS/dalu_pizzaria/main/dalu_static/pizzas.json'
 		)
 			.then((res) => res.json())
 			.then((pizzaGroups: Array<PizzaGroup>) => {
