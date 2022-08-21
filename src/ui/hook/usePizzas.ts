@@ -7,7 +7,9 @@ export default function usePizzas(): Array<PizzaGroup> {
 	const [pizzas, setPizzas] = useState<Array<PizzaGroup>>([])
 
 	useEffect(() => {
-		fetch('assets/pizzas.json')
+		fetch(
+			'https://raw.githubusercontent.com/AsonCS/dalu_pizzaria/main/assets/pizzas.json'
+		)
 			.then((res) => res.json())
 			.then((pizzaGroups: Array<PizzaGroup>) => {
 				pizzaGroups.forEach((pizzaGroup) => {

@@ -1,15 +1,27 @@
 {
-	"short_name": "React App",
-	"name": "Create React App Sample",
+	"short_name": "Dalu Pizzaria",
+	"name": "Dalu Pizzaria",
 	"icons": [
 		{
 			"src": "dalu-pizzaria.png",
 			"sizes": "500x500",
 			"type": "image/jpg"
+		},
+		{
+			"src": "social_instagram.svg",
+			"type": "image/svg+xml"
+		},
+		{
+			"src": "social_maps.svg",
+			"type": "image/svg+xml"
+		},
+		{
+			"src": "social_whatsapp.svg",
+			"type": "image/svg+xml"
 		}
 	],
 	"start_url": ".",
 	"display": "standalone",
-	"theme_color": "#000000",
-	"background_color": "#ffffff"
+	"theme_color": "#ffffff",
+	"background_color": "#111111"
 }
