@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 	* {
@@ -46,5 +46,20 @@ export const GlobalStyle = createGlobalStyle`
 		margin: 0;
 		padding: 0;
 		width: fit-content;
+	}
+
+	/* 	
+	320px — 480px: Mobile devices.
+	481px — 768px: iPads, Tablets.
+	769px — 1024px: Small screens, laptops.
+	1025px — 1200px: Desktops, large screens.
+	1201px
+	*/
+
+`
+
+export const Footer = styled.footer`
+	@media print {
+		display: none;
 	}
 `

@@ -1,19 +1,15 @@
 import styled from 'styled-components'
 
-export const HeaderContainer = styled.header`
+export const BannerContainer = styled.div`
 	color: var(--yellow);
 	display: flex;
 	flex-direction: column;
 	height: fit-content;
 	margin: 0px auto;
 	text-align: center;
-
-	h2 {
-		font-size: 2em;
-	}
 `
 
-export const HeaderContainerDiv = styled.div`
+export const BannerContainerDiv = styled.div`
 	display: flex;
 	flex-direction: column;
 	height: fit-content;
@@ -28,13 +24,29 @@ export const HeaderContainerDiv = styled.div`
 `
 
 export const LogoImage = styled.h1`
-	height: 13em;
-	width: 13em;
+	height: 8em;
+	width: 8em;
+
+	@media (min-width: 481px) {
+		height: 13em;
+		width: 13em;
+	}
+
+	@media print {
+		height: 8em;
+		width: 8em;
+	}
 `
 
 export const SocialDiv = styled.div`
 	height: fit-content;
 	margin: auto 0px;
+
+	@media print {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 4vw;
+	}
 `
 
 export const SocialContainer = styled.a`
@@ -46,6 +58,10 @@ export const SocialContainer = styled.a`
 		height: 1.5em;
 		margin: auto 0px;
 		width: 1.5em;
+
+		@media print {
+			margin: 0px;
+		}
 	}
 
 	figcaption {
@@ -66,10 +82,14 @@ export const SocialContainer = styled.a`
 	}
 `
 
-export const HeaderLabel = styled.label`
+export const BannerLabel = styled.label`
 	display: block;
 	font-size: 1.3em;
 	font-weight: 700;
 	letter-spacing: 0.1em;
 	text-align: left;
+
+	@media print {
+		font-size: 1em;
+	}
 `

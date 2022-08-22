@@ -1,17 +1,15 @@
 import React from 'react'
 
-import * as Styled from './styled'
+import * as images from '../../images'
 import strings from '../../strings'
+import * as Styled from './styled'
 
-export default function Header() {
+export default function Banner() {
 	return (
-		<Styled.HeaderContainer>
-			<Styled.HeaderContainerDiv>
+		<Styled.BannerContainer>
+			<Styled.BannerContainerDiv>
 				<Styled.LogoImage>
-					<img
-						alt={strings.logo_alt}
-						src='images/dalu-pizzaria.png'
-					/>
+					<img alt={strings.logo_alt} src={images.dalu_pizzaria} />
 				</Styled.LogoImage>
 				<Styled.SocialDiv>
 					<Styled.SocialContainer
@@ -21,19 +19,19 @@ export default function Header() {
 						<figcaption>
 							<img
 								alt={strings.social_instagram_alt}
-								src='images/social_instagram.svg'
+								src={images.social_instagram}
 							/>
 							<label>@dalupizzariajandira</label>
 						</figcaption>
 					</Styled.SocialContainer>
 					<Styled.SocialContainer
-						href='https://wa.me/551128789425'
+						href='https://wa.me/551128789425?text=Olá%20tudo%20bem%0AGostaria%20de%20fazer%20um%20pedido'
 						target='_blank'
 					>
 						<figcaption>
 							<img
 								alt={strings.social_whatsapp_alt}
-								src='images/social_whatsapp.svg'
+								src={images.social_whatsapp}
 							/>
 							<label>2878-9425</label>
 						</figcaption>
@@ -45,7 +43,7 @@ export default function Header() {
 						<figcaption>
 							<img
 								alt={strings.social_whatsapp_alt}
-								src='images/social_maps.svg'
+								src={images.social_maps}
 							/>
 							<div>
 								<label>R. Itapiranga, 72</label>
@@ -56,11 +54,11 @@ export default function Header() {
 							</div>
 						</figcaption>
 					</Styled.SocialContainer>
-					<Styled.HeaderLabel>
+					<Styled.BannerLabel>
 						🔥🪵 Forno a Lenha🪵🔥
-					</Styled.HeaderLabel>
+					</Styled.BannerLabel>
 				</Styled.SocialDiv>
-			</Styled.HeaderContainerDiv>
-		</Styled.HeaderContainer>
+			</Styled.BannerContainerDiv>
+		</Styled.BannerContainer>
 	)
 }

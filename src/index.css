@@ -4,12 +4,23 @@
 	--primary-background-color: #111111;
 
 	--secondary-background-color: #1b1b1b;
+	--secondary-background-color-alpha: #1b1b1bcc;
 
 	--orange: #f5ab93;
 	--red: #ef3024;
 	--yellow: #ffbc0d;
 
 	--font-main: sans-serif;
+}
+
+@media print {
+	:root {
+		--primary-font-color: #000000;
+		--primary-background-color: #ffffff;
+
+		--orange: #ffa500;
+		--yellow: #ffb700;
+	}
 }
 
 #root {

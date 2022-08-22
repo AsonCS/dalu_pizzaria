@@ -1,14 +1,19 @@
 import React from 'react'
 
-import Header from './header'
+import * as Styled from '../styled'
+import Banner from './banner'
 import Main from './main'
 
 export default function App() {
 	return (
 		<>
-			<Header />
+			<header>
+				<Banner />
+			</header>
 			<Main />
-			<Header />
+			<Styled.Footer>
+				<Banner />
+			</Styled.Footer>
 		</>
 	)
 }

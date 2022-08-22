@@ -10,9 +10,6 @@ export default function Main() {
 	const pizzaGroups = usePizzaGroups()
 
 	const getPizzas = (pizza: Pizza, idx: number) => {
-		if (!pizza.name) {
-			return <Styled.EmptyDiv />
-		}
 		return (
 			<PizzaGroupComponent key={`${idx}-${pizza.name}`} pizza={pizza} />
 		)
