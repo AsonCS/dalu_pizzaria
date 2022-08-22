@@ -26,6 +26,8 @@ export const MainH3 = styled.h3`
 		background-color: var(--primary-background-color);
 		font-size: 1em;
 		margin: 0px;
+		position: initial;
+		top: 0px;
 	}
 `
 

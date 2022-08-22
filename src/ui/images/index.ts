@@ -1,4 +1,9 @@
 export const dalu_pizzaria = `${process.env.PUBLIC_URL}/images/dalu_pizzaria.png`
+export const qr_code_instagram = `${process.env.PUBLIC_URL}/images/qr_code_instagram.svg`
+export const qr_code_maps = `${process.env.PUBLIC_URL}/images/qr_code_maps.svg`
+export const qr_code_site = `${process.env.PUBLIC_URL}/images/qr_code_site.svg`
+export const qr_code_whatsapp = `${process.env.PUBLIC_URL}/images/qr_code_whatsapp.svg`
 export const social_instagram = `${process.env.PUBLIC_URL}/images/social_instagram.svg`
+export const social_internet = `${process.env.PUBLIC_URL}/images/social_internet.svg`
 export const social_whatsapp = `${process.env.PUBLIC_URL}/images/social_whatsapp.svg`
 export const social_maps = `${process.env.PUBLIC_URL}/images/social_maps.svg`

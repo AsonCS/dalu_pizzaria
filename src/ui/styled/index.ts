@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 	* {
@@ -56,10 +56,4 @@ export const GlobalStyle = createGlobalStyle`
 	1201px
 	*/
 
-`
-
-export const Footer = styled.footer`
-	@media print {
-		display: none;
-	}
 `

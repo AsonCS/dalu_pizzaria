@@ -1,7 +1,7 @@
 import React from 'react'
 
-import * as Styled from '../styled'
 import Banner from './banner'
+import Footer from './footer'
 import Main from './main'
 
 export default function App() {
@@ -11,9 +11,7 @@ export default function App() {
 				<Banner />
 			</header>
 			<Main />
-			<Styled.Footer>
-				<Banner />
-			</Styled.Footer>
+			<Footer />
 		</>
 	)
 }

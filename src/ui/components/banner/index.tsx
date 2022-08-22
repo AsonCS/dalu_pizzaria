@@ -13,6 +13,18 @@ export default function Banner() {
 				</Styled.LogoImage>
 				<Styled.SocialDiv>
 					<Styled.SocialContainer
+						href='https://asoncs.github.io/dalu_pizzaria'
+						target='_blank'
+					>
+						<figcaption>
+							<img
+								alt={strings.social_internet_alt}
+								src={images.social_internet}
+							/>
+							<label>{strings.text_internet}</label>
+						</figcaption>
+					</Styled.SocialContainer>
+					<Styled.SocialContainer
 						href='https://www.instagram.com/dalupizzariajandira/'
 						target='_blank'
 					>
@@ -21,7 +33,7 @@ export default function Banner() {
 								alt={strings.social_instagram_alt}
 								src={images.social_instagram}
 							/>
-							<label>@dalupizzariajandira</label>
+							<label>{strings.text_instagram}</label>
 						</figcaption>
 					</Styled.SocialContainer>
 					<Styled.SocialContainer
@@ -33,7 +45,7 @@ export default function Banner() {
 								alt={strings.social_whatsapp_alt}
 								src={images.social_whatsapp}
 							/>
-							<label>2878-9425</label>
+							<label>{strings.text_whatsapp}</label>
 						</figcaption>
 					</Styled.SocialContainer>
 					<Styled.SocialContainer
@@ -42,15 +54,13 @@ export default function Banner() {
 					>
 						<figcaption>
 							<img
-								alt={strings.social_whatsapp_alt}
+								alt={strings.social_maps_alt}
 								src={images.social_maps}
 							/>
 							<div>
-								<label>R. Itapiranga, 72</label>
-								<label>
-									Jardim Nossa Sra. de Fatima, Jandira
-								</label>
-								<label>SP, 06624-170</label>
+								<label>{strings.text_maps.part1}</label>
+								<label>{strings.text_maps.part2}</label>
+								<label>{strings.text_maps.part3}</label>
 							</div>
 						</figcaption>
 					</Styled.SocialContainer>
