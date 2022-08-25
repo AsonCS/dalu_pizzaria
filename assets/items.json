@@ -11,8 +11,8 @@
 			{
 				"name": "Abobrinha",
 				"description": "muçarela, abobrinha e parmesão",
-				"bigPrice": "37.00",
-				"smallPrice": "27.00"
+				"bigPrice": "38.00",
+				"smallPrice": "28.00"
 			},
 			{
 				"name": "Atum",
@@ -29,8 +29,8 @@
 			{
 				"name": "Alho",
 				"description": "muçarela e alho frito",
-				"bigPrice": "37.00",
-				"smallPrice": "27.00"
+				"bigPrice": "36.00",
+				"smallPrice": "26.00"
 			},
 			{
 				"name": "Bauru",
@@ -83,8 +83,8 @@
 			{
 				"name": "Lombo",
 				"description": "lombo canadense e catupiry",
-				"bigPrice": "39.00",
-				"smallPrice": "29.00"
+				"bigPrice": "40.00",
+				"smallPrice": "30.00"
 			},
 			{
 				"name": "Milho Verde",
@@ -233,8 +233,8 @@
 			{
 				"name": "Canadense",
 				"description": "lombo canadense, palmito, champignon e catupiry ou cream cheese",
-				"bigPrice": "42.00",
-				"smallPrice": "32.00"
+				"bigPrice": "43.00",
+				"smallPrice": "33.00"
 			},
 			{
 				"name": "Jardineira",
@@ -364,30 +364,6 @@
 				"description": "",
 				"bigPrice": "10.00",
 				"smallPrice": "6.00"
-			},
-			{
-				"name": "Tomate",
-				"description": "",
-				"bigPrice": "6.00",
-				"smallPrice": "3.00"
-			},
-			{
-				"name": "Milho Verde",
-				"description": "",
-				"bigPrice": "6.00",
-				"smallPrice": "3.00"
-			},
-			{
-				"name": "Palmito",
-				"description": "",
-				"bigPrice": "8.00",
-				"smallPrice": "4.00"
-			},
-			{
-				"name": "Chocolate",
-				"description": "",
-				"bigPrice": "12.00",
-				"smallPrice": "8.00"
 			}
 		]
 	}
