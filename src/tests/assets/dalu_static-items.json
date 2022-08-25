@@ -1,0 +1,394 @@
+[
+	{
+		"title": "Pizzas Salgadas",
+		"items": [
+			{
+				"name": "muçarela",
+				"description": "muçarela",
+				"bigPrice": 34.0,
+				"smallPrice": 24.0
+			},
+			{
+				"name": "abobrinha",
+				"description": "muçarela, abobrinha e parmesão",
+				"bigPrice": 37.0,
+				"smallPrice": 27.0
+			},
+			{
+				"name": "atum",
+				"description": "atum sólido e cebola",
+				"bigPrice": 39.0,
+				"smallPrice": 29.0
+			},
+			{
+				"name": "atum 2",
+				"description": "atum sólido, cebola e catupiry ou muçarela",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "alho",
+				"description": "muçarela e alho frito",
+				"bigPrice": 37.0,
+				"smallPrice": 27.0
+			},
+			{
+				"name": "bauru",
+				"description": "presunto, tomate e muçarela",
+				"bigPrice": 38.0,
+				"smallPrice": 28.0
+			},
+			{
+				"name": "baiana",
+				"description": "calabresa, ovo, cebola e pimenta picados",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "caipira",
+				"description": "frango desfiado, milho verde, catupiry e bacon fatiado",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "bacon",
+				"description": "muçarela e bacon fatiado",
+				"bigPrice": 39.0,
+				"smallPrice": 29.0
+			},
+			{
+				"name": "calabresa",
+				"description": "calabresa fatiada e cebola",
+				"bigPrice": 34.0,
+				"smallPrice": 24.0
+			},
+			{
+				"name": "a moda da casa",
+				"description": "muçarela, calabresa, escarola, champignon e presunto picados",
+				"bigPrice": 41.0,
+				"smallPrice": 31.0
+			},
+			{
+				"name": "catupiry",
+				"description": "catupiry",
+				"bigPrice": 37.0,
+				"smallPrice": 27.0
+			},
+			{
+				"name": "frango com catupiry",
+				"description": "frango desfiado e catupiry",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "lombo",
+				"description": "lombo canadense e catupiry",
+				"bigPrice": 39.0,
+				"smallPrice": 29.0
+			},
+			{
+				"name": "milho verde",
+				"description": "milho verde e muçarela",
+				"bigPrice": 38.0,
+				"smallPrice": 28.0
+			},
+			{
+				"name": "marguerita",
+				"description": "muçarela, tomate, parmesão e manjericão",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "dois queijos",
+				"description": "muçarela e catupiry",
+				"bigPrice": 37.0,
+				"smallPrice": 27.0
+			},
+			{
+				"name": "três queijos",
+				"description": "muçarela, provolone e catupiry",
+				"bigPrice": 39.0,
+				"smallPrice": 29.0
+			},
+			{
+				"name": "quatro queijos",
+				"description": "muçarela, provolone, catupiry e parmesão",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "cinco queijos",
+				"description": "muçarela, provolone, catupiry, parmesão e gorgonzola",
+				"bigPrice": 45.0,
+				"smallPrice": 35.0
+			},
+			{
+				"name": "nicoline",
+				"description": "presunto, muçarela, cebola e bacon fatiado",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "napolitana",
+				"description": "muçarela, tomate e parmesão",
+				"bigPrice": 38.0,
+				"smallPrice": 28.0
+			},
+			{
+				"name": "portuguesa",
+				"description": "presunto, ovo, palmito, cebola e muçarela",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "portuguesa 2",
+				"description": "peito de peru, ovo, palmito, cebola e cream cheese",
+				"bigPrice": 43.0,
+				"smallPrice": 33.0
+			},
+			{
+				"name": "pepperoni",
+				"description": "muçarela e pepperoni",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "palmito",
+				"description": "palmito e muçarela",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "peito de peru",
+				"description": "peito de peru e catupiry ou cream cheese",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "rúcula",
+				"description": "muçarela, rúcula e tomate seco",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "romana",
+				"description": "muçarela, tomate e atum",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "siciliana",
+				"description": "champignon, muçarela e bacon fatiado",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "escarola",
+				"description": "escarola, muçarela e bacon fatiado",
+				"bigPrice": 41.0,
+				"smallPrice": 31.0
+			},
+			{
+				"name": "brócolis",
+				"description": "brócolis, muçarela e bacon fatiado",
+				"bigPrice": 43.0,
+				"smallPrice": 33.0
+			},
+			{
+				"name": "toscana",
+				"description": "calabresa e muçarela picados",
+				"bigPrice": 39.0,
+				"smallPrice": 29.0
+			},
+			{
+				"name": "toscana 2",
+				"description": "calabresa picada e catupiry ou cream cheese",
+				"bigPrice": 41.0,
+				"smallPrice": 31.0
+			},
+			{
+				"name": "vegetariana",
+				"description": "escarola, abobrinha, champignon, brócolis, palmito, tomate e muçarela",
+				"bigPrice": 44.0,
+				"smallPrice": 34.0
+			},
+			{
+				"name": "nordestina",
+				"description": "carne seca desfiada, ovo e catupiry ou cream cheese",
+				"bigPrice": 44.0,
+				"smallPrice": 34.0
+			},
+			{
+				"name": "shimeji",
+				"description": "shimeji refogado na manteiga e shoyu e muçarela",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "caprese",
+				"description": "muçarela, tomate seco e manjericão",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "canadense",
+				"description": "lombo canadense, palmito, champignon e catupiry ou cream cheese",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "jardineira",
+				"description": "calabresa, presunto, atum e cebola picados",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "a moda do chefe",
+				"description": "costela bovina desfiada, champignon, muçarela, tomate seco e cebola",
+				"bigPrice": 48.0,
+				"smallPrice": 38.0
+			},
+			{
+				"name": "a moda do cliente",
+				"description": "escolha até 4 ingredientes",
+				"bigPrice": 45.0,
+				"smallPrice": 35.0
+			}
+		]
+	},
+	{
+		"title": "pizzas doces",
+		"items": [
+			{
+				"name": "ROMEU E JULIETA",
+				"description": "MUÇARELA E GOIABADA",
+				"bigPrice": 38.0,
+				"smallPrice": 28.0
+			},
+			{
+				"name": "BANANA",
+				"description": "BANANA, AÇÚCAR, CANELA E LEITE CONDENSADO",
+				"bigPrice": 38.0,
+				"smallPrice": 28.0
+			},
+			{
+				"name": "CHOCONANA",
+				"description": "CHOCOLATE FORNEÁVEL AO LEITE E BANANA",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "BRIGADEIRO",
+				"description": "CHOCOLATE FORNEÁVEL AO LEITE E GRANULADO",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "PRESTÍGIO",
+				"description": "CHOCOLATE FORNEÁVEL AO LEITE, COCO RALADO E LEITE CONDENSADO",
+				"bigPrice": 40.0,
+				"smallPrice": 30.0
+			},
+			{
+				"name": "CONFETE",
+				"description": "CHOCOLATE FORNEÁVEL AO LEITE E CONFETES",
+				"bigPrice": 42.0,
+				"smallPrice": 32.0
+			},
+			{
+				"name": "CHOCOLATE COM MORANGO",
+				"description": "CHOCOLATE FORNEÁVEL AO LEITE E MORANGO",
+				"bigPrice": 45.0,
+				"smallPrice": 35.0
+			}
+		]
+	},
+	{
+		"title": "BORDAS RECHEADAS",
+		"items": [
+			{
+				"name": "CATUPIRY",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "CHEDDAR",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "CREAM CHEESE",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "CHOCOLATE",
+				"description": "",
+				"bigPrice": 12.0,
+				"smallPrice": 8.0
+			}
+		]
+	},
+	{
+		"title": "ADICIONAIS DE INGREDIENTES",
+		"items": [
+			{
+				"name": "CATUPIRY",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "CHEDDAR",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "CREAM CHEESE",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "MUÇARELA",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "BACON",
+				"description": "",
+				"bigPrice": 10.0,
+				"smallPrice": 6.0
+			},
+			{
+				"name": "TOMATE",
+				"description": "",
+				"bigPrice": 6.0,
+				"smallPrice": 3.0
+			},
+			{
+				"name": "MILHO VERDE",
+				"description": "",
+				"bigPrice": 6.0,
+				"smallPrice": 3.0
+			},
+			{
+				"name": "PALMITO",
+				"description": "",
+				"bigPrice": 8.0,
+				"smallPrice": 4.0
+			},
+			{
+				"name": "CHOCOLATE",
+				"description": "",
+				"bigPrice": 12.0,
+				"smallPrice": 8.0
+			}
+		]
+	}
+]

@@ -31,7 +31,6 @@ export const ImageContainer = styled.figcaption`
 
 		@media print {
 			font-size: 0.5em;
-			width: 8em;
 		}
 	}
 

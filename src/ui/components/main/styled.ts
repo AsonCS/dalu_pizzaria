@@ -24,6 +24,7 @@ export const MainH3 = styled.h3`
 
 	@media print {
 		background-color: var(--primary-background-color);
+		border-top: var(--primary-font-color) solid 1px;
 		font-size: 1em;
 		margin: 0px;
 		position: initial;
@@ -39,11 +40,11 @@ export const MenuContainer = styled.div`
 	width: 90vw;
 
 	@media print {
-		width: 99vw;
+		width: 96vw;
 	}
 `
 
-export const PizzaDiv = styled.div`
+export const ItemDiv = styled.div`
 	background-color: var(--secondary-background-color);
 	border-radius: 0.5em;
 	margin: 2vw;
@@ -69,32 +70,48 @@ export const PizzaDiv = styled.div`
 	@media print {
 		background-color: var(--primary-background-color);
 		border: var(--primary-font-color) solid 1px;
-		border-radius: 0.5em;
-		margin: 0.5em;
-		width: 23vw;
+		border-bottom-width: 0px;
+		border-radius: 0.8em;
+		border-top-width: 0px;
+		margin: 0px;
+		width: 24vw;
 	}
 `
 
-export const PizzaDivTop = styled.div`
+export const ItemDivTop = styled.div`
 	display: flex;
 	justify-content: space-between;
 `
 
-export const PizzaName = styled.label`
+export const ItemName = styled.label`
 	color: var(--red);
 	display: block;
+	font-size: 1.3em;
 	font-weight: 700;
+
+	@media print {
+		font-size: 0.8em;
+	}
 `
 
-export const PizzaIngredients = styled.label`
+export const ItemDescription = styled.label`
 	color: var(--orange);
-	font-size: 0.6em;
+	font-size: 0.8em;
+
+	@media print {
+		font-size: 0.5em;
+	}
 `
 
-export const PizzaPrice = styled.label`
+export const ItemPrice = styled.label`
 	display: block;
-	font-size: 0.6em;
+	font-size: 0.8em;
 	height: fit-content;
 	margin: auto 0px;
+	padding-left: 0.5em;
 	white-space: nowrap;
+
+	@media print {
+		font-size: 0.5em;
+	}
 `

@@ -13,6 +13,18 @@ export default function Banner() {
 				</Styled.LogoImage>
 				<Styled.SocialDiv>
 					<Styled.SocialContainer
+						href='https://asoncs.github.io/dalu_pizzaria/assets/menu.pdf'
+						target='_blank'
+					>
+						<figcaption>
+							<img
+								alt={strings.social_file_alt}
+								src={images.social_file}
+							/>
+							<label>{strings.text_print}</label>
+						</figcaption>
+					</Styled.SocialContainer>
+					<Styled.SocialContainer
 						href='https://asoncs.github.io/dalu_pizzaria'
 						target='_blank'
 					>

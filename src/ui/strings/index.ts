@@ -1,6 +1,7 @@
 const strings = {
 	logo_alt: 'Logo da Dalu Pizzaria',
 
+	social_file_alt: 'Ícone para arquivo PDF',
 	social_instagram_alt: 'Logo Instagram',
 	social_internet_alt: 'Logo de Internet',
 	social_whatsapp_alt: 'Logo Whatsapp',
@@ -14,6 +15,7 @@ const strings = {
 		part2: 'Jardim Nossa Sra. de Fatima',
 		part3: 'Jandira - SP, 06624-170',
 	},
+	text_print: 'Versão p/ impressão'
 }
 
 export default strings

@@ -5,10 +5,12 @@
 
 	--secondary-background-color: #1b1b1b;
 	--secondary-background-color-alpha: #1b1b1bcc;
+	--secondary-background-color-alpha2: #1b1b1b11;
 
 	--orange: #f5ab93;
 	--red: #ef3024;
 	--yellow: #ffbc0d;
+	
 
 	--font-main: sans-serif;
 }
@@ -18,8 +20,8 @@
 		--primary-font-color: #000000;
 		--primary-background-color: #ffffff;
 
-		--orange: #ffa500;
-		--yellow: #ffb700;
+		--orange: #b48100;
+		--yellow: #b48100;
 	}
 }
 
